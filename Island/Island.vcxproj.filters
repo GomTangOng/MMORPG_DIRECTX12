@@ -13,27 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\Commons">
+      <UniqueIdentifier>{00c88668-663c-4ed5-b108-f493ff7dc995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\MainEntry">
+      <UniqueIdentifier>{9625d94a-e314-46da-be73-090b8f517547}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일\Commons</Filter>
+    </ClInclude>
     <ClInclude Include="stdafx.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Commons</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Commons</Filter>
     </ClInclude>
     <ClInclude Include="Island.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\MainEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>헤더 파일\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSampleHelper.h">
+      <Filter>헤더 파일\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApplication.h">
+      <Filter>헤더 파일\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="DXApplication.h">
+      <Filter>헤더 파일\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="IslandApplication.h">
+      <Filter>헤더 파일\Commons</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Island.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>헤더 파일\MainEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApplication.cpp">
+      <Filter>헤더 파일\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="DXApplication.cpp">
+      <Filter>헤더 파일\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="IslandApplication.cpp">
+      <Filter>헤더 파일\Commons</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
